@@ -1,0 +1,16 @@
+.navbar-default {
+    background: none;
+  	border: none;
+}
+
+body {
+  height: 100%;
+  background-image: url("bround.jpg");
+}
+
+.first {
+  height:100vh;
+  min-height:400px;
+  background-size:cover;
+  background-image:url('bround.jpg');
+}
