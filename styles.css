@@ -3,14 +3,44 @@
   	border: none;
 }
 
-body {
-  height: 100%;
-  background-image: url("bround.jpg");
+.nav.navbar-nav.navbar-right li a {
+    color: #d6d6d6;
 }
 
-.first {
-  height:100vh;
-  min-height:400px;
-  background-size:cover;
-  background-image:url('bround.jpg');
+.navbar-default .navbar-brand {
+    color: #d6d6d6;
+}
+
+#headertxt i {
+  transition: font-size 0.35s ease;
+}
+
+#headertxt i:hover {
+  font-size: 2em;
+}
+
+#top {
+  height: 100%;
+  background: url(bround.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50em;
+
+}
+
+#headertxt {
+  padding-top: 10%;
+  text-align: center;
+  position: relative;
+  font-family: Verdana;
+  color: white;
+  font-variant-caps: small-caps;
+}
+
+#am {
+  color: black;
+  text-align: center;
+  padding-bottom: 1000px;
 }
