@@ -3,6 +3,10 @@
   	border: none;
 }
 
+#nav-backround {
+  background: black;
+}
+
 .nav.navbar-nav.navbar-right li a {
     color: #d6d6d6;
     font-family: Helvetica;
@@ -126,4 +130,8 @@ img {
   font-size: 1em;
   padding-top: 1rem;
   text-align: right;
+}
+
+.resume-header {
+  text-align: center;
 }
