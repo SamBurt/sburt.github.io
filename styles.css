@@ -1,6 +1,7 @@
 .navbar-default {
     background: none;
   	border: none;
+    margin-bottom: 0px;
 }
 
 #nav-backround {
@@ -15,6 +16,7 @@
 .navbar-default .navbar-brand {
     color: #d6d6d6;
     font-family: Helvetica;
+    font-variant-caps: small-caps;
 }
 
 #headertxt i {
@@ -42,6 +44,9 @@
   position: relative;
   font-family: Helvetica;
   color: white;
+}
+
+#headertxt h1 {
   font-variant-caps: small-caps;
 }
 
@@ -56,10 +61,11 @@
   background-color: rgb(240, 240, 240);
   margin-top: 0;
   font-family: Helvetica;
+  padding-bottom: 2em;
 }
 
 #xpad {
-  margin-bottom: 3000px;
+  padding-bottom: 3000px;
 }
 
 .row {
@@ -134,4 +140,10 @@ img {
 
 .resume-header {
   text-align: center;
+  margin-top: 0px;
+  padding-top: 1em;
+}
+
+.resume-background {
+  background: rgb(240, 240, 240);
 }
