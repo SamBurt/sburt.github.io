@@ -6,6 +6,7 @@
 
 #nav-backround {
   background: black;
+  margin-left: -1%;
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -72,7 +73,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-  max-height: 16em;
+  max-height: 20vw;
   overflow: hidden;
 }
 
@@ -89,26 +90,29 @@ img {
 }
 
 .cat_head {
-  font-size: 250%;
+  float: left;
+  margin-right: 1em;
+  font-size: 3.0vw;
 }
+
 
 .left {
   margin-top: 6em;
   float: left;
-  width: 25%;
+  width: 26%;
 }
 
 .right {
   margin-top: 6em;
   float: left;
-  width: 75%;
+  width: 74%;
 }
 
 .am-row {
   content: "";
   display: table;
   clear: both;
-  margin-left: 4em;
+  margin-left: 2em;
 }
 
 .footer {
@@ -123,16 +127,16 @@ img {
 }
 
 #left-footer {
-  width: 25%;
+  width: 40%;
   float: left;
   padding-left: 2em;
   padding-top: 2em;
 }
 
 #right-footer {
-  width: 75%;
+  width: 60%;
   float: left;
-  padding-right: 6em;
+  padding-right: 2vw;
   font-size: 1em;
   padding-top: 1rem;
   text-align: right;
@@ -146,4 +150,8 @@ img {
 
 .resume-background {
   background: rgb(240, 240, 240);
+}
+
+#resume {
+  align-items: center;
 }
