@@ -39,6 +39,7 @@
   margin-bottom: 0;
 }
 
+
 #headertxt {
   padding-top: 10%;
   text-align: center;
@@ -65,9 +66,6 @@
   padding-bottom: 2em;
 }
 
-#xpad {
-  padding-bottom: 3000px;
-}
 
 .row {
   display: flex;
@@ -153,5 +151,9 @@ img {
 }
 
 #resume {
-  align-items: center;
+  text-align: center;
+}
+
+#resume object {
+  height: 50vw;
 }
