@@ -88,22 +88,24 @@ img {
 }
 
 .cat_head {
+  display: block;
   float: left;
   margin-right: 1em;
   font-size: 3.0vw;
+  border-right: 0;
 }
 
 
 .left {
   margin-top: 6em;
   float: left;
-  width: 26%;
+  width: 25%;
 }
 
 .right {
   margin-top: 6em;
   float: left;
-  width: 74%;
+  width: 65%;
 }
 
 .am-row {
